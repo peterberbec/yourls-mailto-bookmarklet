@@ -2,6 +2,10 @@
 
 Plugin for YOURLS (http://yourls.org) that implements a simple mailto: bookmarklet
 
+***CURRENTLY BROKEN - BLAME TROGDOR***
+
+<img src="http://i.stack.imgur.com/ihN3m.png">
+
 Place in /user/plugins/mailto-bookmarklet
 
 Activate in "manage plugins"
