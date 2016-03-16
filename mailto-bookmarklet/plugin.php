@@ -48,6 +48,6 @@ function prb_bookmarklet_function( ) {
 	} 
 	void(0);
 EMAIL;
-	yourls_bookmarklet_link( yourls_make_bookmarklet( $js_code ), yourls__( 'YOURLS &amp; Email' ) )
+	yourls_bookmarklet_link( yourls_make_bookmarklet( $js_code ), yourls__( 'YOURLS &amp; Email' ) );
 
 }
