@@ -15,7 +15,7 @@ yourls_add_action( 'social_bookmarklet_buttons_after', 'prb_bookmarklet_function
 
 function prb_bookmarklet_function( ) {
 
-	<?php $js_code = <<<EMAIL
+	$js_code = <<<EMAIL
 	// Share via email
 	var d   = document, 
 	    w   = window,
@@ -49,6 +49,5 @@ function prb_bookmarklet_function( ) {
 	void(0);
 EMAIL;
 	yourls_bookmarklet_link( yourls_make_bookmarklet( $js_code ), yourls__( 'YOURLS &amp; Email' ) )
-;?>
 
 }
