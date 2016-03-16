@@ -1,6 +1,6 @@
 <?php
 /**
-Plugin Name: mailto-bookmarklet
+Plugin Name: Mailto bookmarklet
 Plugin URI: http://yourls.org/
 Description: Add mailto: to the list of bookmarklets
 Version: 1.0
