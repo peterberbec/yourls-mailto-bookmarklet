@@ -6,7 +6,6 @@ Description: Add mailto: to the list of bookmarklets
 Version: 1.0
 Author: Peter Ryan Berbec
 Author URI: peter@berb.ec
-http://berb.ec/admin/plugins.php?action=deactivate&plugin=mailto-bookmarklet&nonce=0828e60c6d
 **/
 
 // No direct call
