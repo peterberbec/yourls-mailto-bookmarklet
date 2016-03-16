@@ -1,4 +1,4 @@
-# yourls-mailto-bookmarklet
+# mailto-bookmarklet
 
 Plugin for YOURLS (http://yourls.org) that implements a simple mailto: bookmarklet
 
