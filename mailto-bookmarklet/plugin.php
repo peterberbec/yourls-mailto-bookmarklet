@@ -1,6 +1,6 @@
 <?php
 /**
-Plugin Name: Mailto bookmarklet
+Plugin Name: mailto-bookmarklet
 Plugin URI: http://yourls.org/
 Description: Add mailto: to the list of bookmarklets
 Version: 1.0
@@ -15,6 +15,7 @@ yourls_add_action( 'social_bookmarklet_buttons_after', 'prb_bookmarklet_function
 
 function prb_bookmarklet_function( ) {
 
+	$base_bookmarklet = yourls_admin_url('index.php');
 	$js_code = <<<EMAIL
 	// Share via email
 	var d   = document, 
@@ -27,7 +28,6 @@ function prb_bookmarklet_function( ) {
 	    ur  = l.split(new RegExp(ups))[1], 
 	    ups = ups.split(/\:/), 
 	    p   = '?up=' + enc(ups[0]+':') + '&us=' + enc(ups[1]) + '&ur=' + enc(ur) + '&t=' + enc(d.title); 
-
 	window.yourls_callback=function(r){ 
 		if(r.short_url){ 
 			u = 'mailto:?subject=' + enc(d.title) + '&body=' + enc(d.title) + '%0A' + enc(r.short_url); 
